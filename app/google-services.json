@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "451176355315",
+    "firebase_url": "https://shoppoint-a9d82.firebaseio.com",
+    "project_id": "shoppoint-a9d82",
+    "storage_bucket": "shoppoint-a9d82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451176355315:android:7336b53a2da1f3731b6e86",
+        "android_client_info": {
+          "package_name": "com.shavi.shoppoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451176355315-epfnjv7j5sl8om9gm03l0j95l7rsr4lr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shavi.shoppoint",
+            "certificate_hash": "dca635200ff58c78cd62ffbd4355e14a737ad85e"
+          }
+        },
+        {
+          "client_id": "451176355315-f6ds5352hb68u2dq9fk8u811g1ttokf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYV5szITZ5hKWGqhuogbm1vLDupZl7ZZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451176355315-f6ds5352hb68u2dq9fk8u811g1ttokf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

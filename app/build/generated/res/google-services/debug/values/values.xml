@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">451176355315-f6ds5352hb68u2dq9fk8u811g1ttokf5.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://shoppoint-a9d82.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">451176355315</string>
+    <string name="google_api_key" translatable="false">AIzaSyCYV5szITZ5hKWGqhuogbm1vLDupZl7ZZI</string>
+    <string name="google_app_id" translatable="false">1:451176355315:android:7336b53a2da1f3731b6e86</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCYV5szITZ5hKWGqhuogbm1vLDupZl7ZZI</string>
+    <string name="google_storage_bucket" translatable="false">shoppoint-a9d82.appspot.com</string>
+    <string name="project_id" translatable="false">shoppoint-a9d82</string>
+</resources>

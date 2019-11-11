@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shavi.shoppoint">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.shavi.shoppoint.init.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="MyDatabase.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="5" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.shavi.shoppoint.db.Notification"/>
+        <!--
+        Add the following to your AndroidManifest.xml to prevent the launching of your main Activity
+        if you are calling startActivity above.
+        -->
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+
+        <activity
+            android:name="com.shavi.shoppoint.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shavi.shoppoint.Register"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.shavi.shoppoint.MainActivity"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.LoginActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.shavi.shoppoint.HelpCenter"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.Profile"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.Cart"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.UpdateData"
+            android:theme="@style/WhiteTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.shavi.shoppoint.ForgotPassword"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.shavi.shoppoint.NotificationActivity"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.prodcutscategory.Cards"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.IndividualProduct"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.Wishlist"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.OrderDetails"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.OrderPlaced"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.prodcutscategory.Tshirts"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.prodcutscategory.Bags"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.prodcutscategory.Calendars"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.prodcutscategory.Keychains"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name="com.shavi.shoppoint.prodcutscategory.Stationary"
+            android:theme="@style/WhiteTheme" />
+        <activity android:name="com.shavi.shoppoint.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
